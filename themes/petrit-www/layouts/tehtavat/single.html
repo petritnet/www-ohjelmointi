@@ -1,0 +1,23 @@
+{{ partial "header.html" . }}
+
+	<main class="content">
+		<article>
+			<div class="tehtavalista">
+				<ol>
+					{{ range .Site.Pages.ByWeight }}
+						{{ if eq .Section "tehtavat" }}
+						<li class="toclist-item"><a href="{{ .RelPermalink }}">{{ .Title }}{{ if .Draft }} #Draft{{ end }}</a></li>
+						{{ end }}
+					{{ end }}
+				</ol>
+			</div>
+			<h1 class="entry-title title" itemprop="headline">{{ .Title }}</h1>
+			<section itemprop="entry-text">
+				<p>Lue tehtävät läpi. Tee tehtävän harjoitus ohjeiden mukaan ja palauta tehtävässä luodut tiedostot sähköpostilla osoitteeseen
+				    <strong>www-ohjelmointi@petrit.net</strong> .</p>
+				{{ .Content }}
+			</section>
+		</article>
+	</main>
+
+{{ partial "footer.html" . }}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
+<head>
+	<meta charset="utf-8">
+	{{ .Hugo.Generator }}
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="Author" content="Petrit Sallasmaa ja Salmela">
+	<meta name="Description" content="www-ohjelmoinnista lukiolaisille">
+	<link href="http://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="{{.Site.BaseURL}}css/github.min.css">
+	<link rel="stylesheet" href="{{.Site.BaseURL}}css/style.css">
+	<link rel="alternate" href="{{.Site.BaseURL}}index.xml" type="application/rss+xml" title="{{ .Site.Title }}">
+	<title>{{ $isHomePage := eq .Title .Site.Title }}{{ .Title }}{{ if eq $isHomePage false }} - {{ .Site.Title }}{{ end }}</title>
+</head>
+<body>
+
+<div class="container">
+
+	<header class="header">
+		<h1 class="site-title">{{ .Site.Title }}</h1>
+		{{ if .Site.Params.logo }}
+		<div class="header-logo">
+			<a href="{{.Site.BaseURL}}/"><img src="{{ .Site.Params.logo }}" width="60" height="60"></a>
+		</div>
+		{{ end }}
+		<nav>
+			<ul class="main-menu">
+				{{ $currentNode := . }}
+				{{ $section := .Section }}
+				{{ range .Site.Menus.main }}
+				<li class="main-menu-item{{ if or ($currentNode.IsMenuCurrent "main" .) (eq $section .Identifier) }} valittuSivu{{ end }}">
+					<a href="{{.URL}}">{{ .Pre }}<span>{{ .Name }}</span>{{ .Post }}</a>
+				</li>
+				{{ end }}
+			</ul>
+		</nav>
+	</header>

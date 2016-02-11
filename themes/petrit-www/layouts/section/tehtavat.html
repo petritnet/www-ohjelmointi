@@ -1,0 +1,12 @@
+{{ partial "header.html" . }}
+
+	<main class="content">
+		<h1 class="list-title title">Tehtävät</h1>
+		<ol>
+			{{ range .Data.Pages.ByWeight }}
+			<li class="toclist-item"><a href="{{ .RelPermalink }}">{{ .Title }}{{ if .Draft }} #Draft{{ end }}</a></li>
+			{{ end }}
+		</ol>
+	</main>
+
+{{ partial "footer.html" . }}

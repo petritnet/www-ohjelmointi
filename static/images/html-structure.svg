@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="800" height="400" viewBox="0 0 800 400" class="chart">
+    <rect stroke="blue" stroke-width="2" fill="none" x="2" y="2" width="750" height="380"></rect>
+    <text x="5" y="20" style="font-family: monospace; font-size: 12px; font-weight: bold; fill: blue;">&lt;html&gt;</text>
+    <text x="5" y="375" style="font-family: monospace; font-size: 12px; font-weight: bold; fill: blue;">&lt;/html&gt;</text>
+
+    <g transform="translate(10,30)">
+        <rect stroke="red" stroke-width="2" fill="none" x="0" y="0" width="735" height="100"></rect>
+        <text x="5" y="15" style="font-family: monospace; font-size: 12px; font-weight: bold; fill: red;">&lt;head&gt;</text>
+        <text x="5" y="94" style="font-family: monospace; font-size: 12px; font-weight: bold; fill: red;">&lt;/head&gt;</text>
+
+        <g transform="translate(10,20)">
+            <rect stroke="brown" stroke-width="2" fill="none" x="0" y="0" width="715" height="20"></rect>
+            <text x="5" y="15" style="font-family: monospace; font-size: 12px; font-weight: bold; fill: brown;">&lt;title&gt;</text>
+            <text x="150" y="15" style="font-family: monospace; font-size: 12px; font-weight: bold; fill: black;">Www-ohjelmointi</text>
+            <text x="645" y="15" style="font-family: monospace; font-size: 12px; font-weight: bold; fill: brown;">&lt;/title&gt;</text>
+        </g>
+
+        <g transform="translate(10,40)">
+            <rect stroke="brown" stroke-width="2" fill="none" x="0" y="0" width="715" height="20"></rect>
+            <text x="5" y="15" style="font-family: monospace; font-size: 12px; font-weight: bold; fill: brown;">&lt;link&gt;</text>
+            <text x="645" y="15" style="font-family: monospace; font-size: 12px; font-weight: bold; fill: brown;">&lt;/link&gt;</text>
+        </g>
+
+        <g transform="translate(10,60)">
+            <rect stroke="brown" stroke-width="2" fill="none" x="0" y="0" width="715" height="20"></rect>
+            <text x="5" y="15" style="font-family: monospace; font-size: 12px; font-weight: bold; fill: brown;">&lt;script&gt;</text>
+            <text x="645" y="15" style="font-family: monospace; font-size: 12px; font-weight: bold; fill: brown;">&lt;/script&gt;</text>
+        </g>
+
+    </g>
+
+    <g transform="translate(10,150)">
+        <rect stroke="red" stroke-width="2" fill="none" x="0" y="0" width="735" height="210"></rect>
+        <text x="5" y="15" style="font-family: monospace; font-size: 12px; font-weight: bold; fill: red;">&lt;body&gt;</text>
+        <text x="5" y="200" style="font-family: monospace; font-size: 12px; font-weight: bold; fill: red;">&lt;/body&gt;</text>
+
+        <g transform="translate(120,10)">
+            <rect stroke="green" stroke-width="2" fill="none" x="0" y="0" width="600" height="40"></rect>
+            <text x="5" y="15" style="font-family: monospace; font-size: 12px; font-weight: bold; fill: green;">&lt;header&gt;</text>
+            <text x="5" y="34" style="font-family: monospace; font-size: 12px; font-weight: bold; fill: green;">&lt;/header&gt;</text>
+        </g>
+
+        <g transform="translate(120,58)">
+            <rect stroke="green" stroke-width="2" fill="none" x="0" y="0" width="600" height="100"></rect>
+            <text x="5" y="15" style="font-family: monospace; font-size: 12px; font-weight: bold; fill: green;">&lt;article&gt;</text>
+            <text x="5" y="94" style="font-family: monospace; font-size: 12px; font-weight: bold; fill: green;">&lt;/article&gt;</text>
+
+            <g transform="translate(10,20)">
+                <rect stroke="brown" stroke-width="2" fill="none" x="0" y="0" width="570" height="20"></rect>
+                <text x="5" y="15" style="font-family: monospace; font-size: 12px; font-weight: bold; fill: brown;">&lt;h1&gt;</text>
+                <text x="150" y="15" style="font-family: monospace; font-size: 12px; font-weight: bold; fill: black;">Otsikko</text>
+                <text x="500" y="15" style="font-family: monospace; font-size: 12px; font-weight: bold; fill: brown;">&lt;/h1&gt;</text>
+            </g>
+
+            <g transform="translate(10,40)">
+                <rect stroke="brown" stroke-width="2" fill="none" x="0" y="0" width="570" height="20"></rect>
+                <rect stroke="#777" stroke-width="1" fill="#ffa" x="213" y="2" width="170" height="16"></rect>
+                <text x="5" y="15" style="font-family: monospace; font-size: 12px; font-weight: bold; fill: brown;">&lt;p&gt;</text>
+                <text x="150" y="15" style="font-family: monospace; font-size: 12px; font-weight: bold; fill: black;">Sisältöä &lt;strong&gt;tekstiä&lt;/strong&gt; sisältöä...</text>
+                <text x="500" y="15" style="font-family: monospace; font-size: 12px; font-weight: bold; fill: brown;">&lt;/p&gt;</text>
+            </g>
+
+            <g transform="translate(10,60)">
+                <rect stroke="brown" stroke-width="2" fill="none" x="0" y="0" width="570" height="20"></rect>
+                <rect stroke="#777" stroke-width="1" fill="#ffa" x="213" y="2" width="90" height="16"></rect>
+                <text x="5" y="15" style="font-family: monospace; font-size: 12px; font-weight: bold; fill: brown;">&lt;p&gt;</text>
+                <text x="150" y="15" style="font-family: monospace; font-size: 12px; font-weight: bold; fill: black;">Sisältöä &lt;a&gt;linkki&lt;/a&gt; sisältöä...</text>
+                <text x="500" y="15" style="font-family: monospace; font-size: 12px; font-weight: bold; fill: brown;">&lt;/p&gt;</text>
+            </g>
+
+        </g>
+
+        <g transform="translate(120,167)">
+            <rect stroke="green" stroke-width="2" fill="none" x="0" y="0" width="600" height="40"></rect>
+            <text x="5" y="15" style="font-family: monospace; font-size: 12px; font-weight: bold; fill: green;">&lt;footer&gt;</text>
+            <text x="5" y="34" style="font-family: monospace; font-size: 12px; font-weight: bold; fill: green;">&lt;/footer&gt;</text>
+        </g>
+
+        <g transform="translate(8, 20)">
+            <rect stroke="green" stroke-width="2" fill="none" x="0" y="0" width="100" height="160"></rect>
+            <text x="5" y="15" style="font-family: monospace; font-size: 12px; font-weight: bold; fill: green;">&lt;nav&gt;</text>
+            <text x="5" y="154" style="font-family: monospace; font-size: 12px; font-weight: bold; fill: green;">&lt;/nav&gt;</text>
+
+            <g transform="translate(5,20)">
+                <rect stroke="brown" stroke-width="2" fill="none" x="0" y="0" width="90" height="20"></rect>
+                <text x="5" y="15" style="font-family: monospace; font-size: 12px; font-weight: bold; fill: brown;">&lt;h1&gt;</text>
+                <text x="50" y="15" style="font-family: monospace; font-size: 12px; font-weight: bold; fill: brown;">&lt;/h1&gt;</text>
+            </g>
+
+            <g transform="translate(5,40)">
+                <rect stroke="brown" stroke-width="2" fill="none" x="0" y="0" width="90" height="100"></rect>
+                <text x="5" y="15" style="font-family: monospace; font-size: 12px; font-weight: bold; fill: brown;">&lt;ul&gt;</text>
+                <text x="5" y="95" style="font-family: monospace; font-size: 12px; font-weight: bold; fill: brown;">&lt;/ul&gt;</text>
+
+                <g transform="translate(5,20)">
+                    <rect stroke="#777" stroke-width="1" fill="#ffa" x="0" y="0" width="80" height="20"></rect>
+                    <text x="5" y="15" style="font-family: monospace; font-size: 12px; font-weight: bold; fill: brown;">&lt;li&gt;</text>
+                    <text x="40" y="15" style="font-family: monospace; font-size: 12px; font-weight: bold; fill: brown;">&lt;/li&gt;</text>
+                </g>
+                <g transform="translate(5,40)">
+                    <rect stroke="#777" stroke-width="1" fill="#ffa" x="0" y="0" width="80" height="20"></rect>
+                    <text x="5" y="15" style="font-family: monospace; font-size: 12px; font-weight: bold; fill: brown;">&lt;li&gt;</text>
+                    <text x="40" y="15" style="font-family: monospace; font-size: 12px; font-weight: bold; fill: brown;">&lt;/li&gt;</text>
+                </g>
+                <g transform="translate(5,60)">
+                    <rect stroke="#777" stroke-width="1" fill="#ffa" x="0" y="0" width="80" height="20"></rect>
+                    <text x="5" y="15" style="font-family: monospace; font-size: 12px; font-weight: bold; fill: brown;">&lt;li&gt;</text>
+                    <text x="40" y="15" style="font-family: monospace; font-size: 12px; font-weight: bold; fill: brown;">&lt;/li&gt;</text>
+                </g>
+
+            </g>
+
+        </g>
+
+    </g>
+</svg>

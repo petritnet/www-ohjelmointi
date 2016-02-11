@@ -1,0 +1,11 @@
+name = "Petrit WWW"
+license = "MIT"
+licenselink = "http://opensource.org/licenses/MIT"
+description = "Simple Hugo theme for www course"
+tags = ["blog","course"]
+features = ["blog", "themes"]
+min_version = 0.13
+
+[author]
+    name = "Petri Salmela"
+    homepage = "http://petrit.net/"

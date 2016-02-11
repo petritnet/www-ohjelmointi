@@ -1,0 +1,24 @@
+{{ $baseurl := .Page.Site.BaseURL }}
+<div class="jessyink">
+    <iframe {{ with .Get "src" }}src="{{$baseurl}}slideshows/{{.}}"{{ end }} class="jessyink-slideshow"></iframe>
+    <div class="jessyink-buttons">
+        <div class="jessyink-navibuttons">
+            <button class="jessyink-previous" onclick="var ifrm = this.parentElement.parentElement.parentElement.children[0]; var win = ifrm.contentWindow; win.keyCodeDictionary[1][37]();"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="20" height="20" viewBox="0 0 30 30" class="pssicon pssicon-galleryprevious"><path style="stroke: none;" fill="black" d="M15 1 a14 14 0 0 0 0 28 a14 14 0 0 0 0 -28z m0 1 a13 13 0 0 1 0 26 a13 13 0 0 1 0 -26z m5 3 l-2 10 l2 10 l-13 -10z"></path></svg></button>
+            <button class="jessyink-next" onclick="var ifrm = this.parentElement.parentElement.parentElement.children[0]; var win = ifrm.contentWindow; win.keyCodeDictionary[1][39]();"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="20" height="20" viewBox="0 0 30 30" class="pssicon pssicon-gallerynext"><path style="stroke: none;" fill="black" d="M15 1 a14 14 0 0 0 0 28 a14 14 0 0 0 0 -28z m0 1 a13 13 0 0 1 0 26 a13 13 0 0 1 0 -26z m-5 3 l13 10 l-13 10 l2 -10z"></path></svg></button>
+            <button class="jessyink-next" onclick="var ifrm = this.parentElement.parentElement.parentElement.children[0]; var win = ifrm.contentWindow; win.charCodeDictionary[1]['i']();"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="20" height="20" viewBox="0 0 30 30" class="pssicon pssicon-grid"><path style="stroke: none;" d="M3 3 l6 0 l0 6 l-6 0z m9 0 l6 0 l0 6 l-6 0z m9 0 l6 0 l0 6 l-6 0z m-18 9 l6 0 l0 6 l-6 0z m9 0 l6 0 l0 6 l-6 0z m9 0 l6 0 l0 6 l-6 0z m-18 9 l6 0 l0 6 l-6 0z m9 0 l6 0 l0 6 l-6 0z m9 0 l6 0 l0 6 l-6 0z"></path></svg></button>
+        </div>
+        <div class="jessyink-linkcontainer">
+            {{ with .Get "src" }}<a href="{{$baseurl}}slideshows/{{.}}" class="jessyink-link" target="_blank">{{.}}</a>{{ end }}
+        </div>
+        <div class="jessyink-buttonset">
+            <button class="jessyink-fullscreen" onclick="this.parentElement.parentElement.parentElement.setAttribute('data-fullscreenmode', 'on');"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="20" height="20" viewBox="0 0 30 30" class="pssicon pssicon-fullscreen"><path style="stroke: none;" fill="black" d="M1 1 l9 0 l-3 3 l4 5 l-2 2 l-5 -4 l-3 3z M1 29 l0 -9 l3 3 l5 -4 l2 2 l-4 5 l3 3z M29 1 l0 9 l-3 -3 l-5 4 l-2 -2 l4 -5 l-3 -3z M29 29 l-9 0 l3 -3 l-4 -5 l2 -2 l5 4 l3 -3z"></path></svg></button>
+            <button class="jessyink-fullscreenoff" onclick="this.parentElement.parentElement.parentElement.setAttribute('data-fullscreenmode', 'off');"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="20" height="20" viewBox="0 0 30 30" class="pssicon pssicon-fullscreenoff"><path style="stroke: none;" fill="black" d="M18 18 l9 0 l-3 3 l4 5 l-2 2 l-5 -4 l-3 3z M18 12 l0 -9 l3 3 l5 -4 l2 2 l-4 5 l3 3z M12 18 l0 9 l-3 -3 l-5 4 l-2 -2 l4 -5 l-3 -3z M12 12 l-9 0 l3 -3 l-4 -5 l2 -2 l5 4 l3 -3z"></path></svg></button>
+        </div>
+    </div>
+    <div class="jessyink-caption">
+{{ if len .Inner }}
+    {{ .Inner }}
+{{ end }}
+    
+    </div>
+</div>

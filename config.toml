@@ -1,0 +1,57 @@
+baseurl = "/www-ohjelmointi/"
+languageCode = "fi-fi"
+title = "WWW-ohjelmointi"
+theme = "petrit-www"
+pluralizeListTitles = false
+
+[[menu.main]]
+    name = "Yleistä"
+    weight = 1
+    identifier = "yleista"
+    url = "/"
+
+[[menu.main]]
+    name = "HTML"
+    weight = 2
+    identifier = "html"
+    url = "/html/"
+
+[[menu.main]]
+    name = "CSS"
+    weight = 3
+    identifier = "css-tyyli"
+    url = "/css-tyyli/"
+
+[[menu.main]]
+    name = "Javascript"
+    weight = 4
+    identifier = "javascript"
+    url = "/javascript/"
+
+[[menu.main]]
+    name = "Palvelin"
+    weight = 5
+    identifier = "palvelin"
+    url = "/palvelin/"
+
+[[menu.main]]
+    name = "Tehtävät"
+    weight = 6
+    identifier = "tehtavat"
+    url = "/tehtavat/"
+
+[[menu.main]]
+    name = "Linkkejä"
+    weight = 7
+    identifier = "linkkeja"
+    url = "/linkkeja/"
+
+[Params]
+  description = "Kerttulin lukion www-ohjelmointi-kurssi 2016"
+  author = "Petri Salmela"
+  authorlocation = "Turku, Finland"
+  email = "www-ohjelmointi@petrit.net"
+#  github = "https://github.com/pesasa"
+#  twitter = "https://twitter.com/pesasafi"
+#  copyright = "CC-by-sa: Petri Sallasmaa & Petri Salmela"
+

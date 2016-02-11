@@ -1,0 +1,12 @@
+{{ partial "header.html" . }}
+
+	<main class="content">
+{{ range .Data.Pages }}
+	{{ if eq .Type "front" }}
+		{{ .TableOfContents }}
+		{{ .Render "front" }}
+	{{ end }}
+{{ end }}
+	</main>
+
+{{ partial "footer.html" . }}

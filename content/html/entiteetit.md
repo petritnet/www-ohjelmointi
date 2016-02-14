@@ -8,11 +8,16 @@ weight = 70
 
 +++
 
+{{% jessyink src="html-johdanto.svg#22" %}}
+{{% /jessyink %}}
+
 Eräitä erikoismerkkejä (esimerkiksi `<` ja `>`) ei voi kirjoittaa tekstin sekaan
 suoraan, vaan ne on kirjoitettava erikoismerkinnällä, eli [*entiteetteinä*][Entiteetit].
 
 HTML-entiteetti alkaa `&`-merkillä ja päättyy puolipisteeseen `;`. Entiteetin
-tunniste on teksti tai järjestysnumero muodossa `#numero`.
+tunniste on teksti tai merkin unicode-järjestysnumero muodossa `#numero`.
+Numero voidaan antaa desimaalimuodossa, kuten `&#9731;`, tai heksadesimaalimuodossa, kuten
+`&#x2603;`. Lopputulos on kuitenkin sama:<br> <span style="font-size: 600%; color: blue;">&#x2603;</span>
 
 Esimerkiksi:
 

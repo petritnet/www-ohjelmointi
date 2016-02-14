@@ -8,6 +8,9 @@ weight = 80
 
 +++
 
+{{% jessyink src="html-johdanto.svg#24" %}}
+{{% /jessyink %}}
+
 Lomakkeiden tarkoituksena on yleensä kerätä käyttäjältä tietoja, esimerkiksi
 palveluun rekisteröinnin tai sisäänkirjautumisen yhteydessä. Lomake voidaan toteuttaa
 HTML-komponenttien avulla, mutta tiedon käsittelyyn tarvitaan yleensä kuitenkin

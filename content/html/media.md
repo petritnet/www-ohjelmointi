@@ -8,6 +8,9 @@ weight = 85
 
 +++
 
+{{% jessyink src="html-johdanto.svg#28" %}}
+{{% /jessyink %}}
+
 HTML5:n mukana tulivat käyttöön uudet mediaelementit, joilla voi sivulle upottaa
 ääntä ja videota samaan tapaan kuin kuvia on voinut upottaa jo aiemmin. HTML5 toi
 mukanaan myös virallisen tuen skaalattavalle vektorigrafiikalle, eli SVG-muotoisille
@@ -80,7 +83,7 @@ Video
 
 SVG-kuvat
 =========
-SVG-kuvat ovat vektorimuotoisia kuvia, eli ne eivät koostu pienistä pisteistä vaan kuvan piirtämiseen tarvittavista ohjeista
+[SVG-kuvat][SVG] ovat vektorimuotoisia kuvia, eli ne eivät koostu pienistä pisteistä vaan kuvan piirtämiseen tarvittavista ohjeista
 koordinaatteineen, pituuksineen, leveyksineen, väreineen sekä muine ominaisuuksineen.
 
 * SVG tarkoittaa: **S**calable **V**ector **G**raphics
@@ -132,3 +135,4 @@ aiemmin on käytetty Flash-sovelluksia. Esimerkiksi tämän kurssin kalvoesityks
 
 [Audio]: http://www.w3schools.com/HTML/html5_audio.asp "W3Schools:Audio"
 [Video]: http://www.w3schools.com/HTML/html5_video.asp "W3Schools:Video"
+[SVG]: http://www.w3schools.com/svg/default.asp "W3Schools:SVG"

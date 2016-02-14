@@ -8,6 +8,9 @@ weight = 90
 
 +++
 
+{{% jessyink src="html-johdanto.svg#33" %}}
+{{% /jessyink %}}
+
 Sivun validoinnilla varmistetaan, että sivu on annetun dokumenttityypin mukainen.
 Validi sivu toimii todennäköisemmin halutusti eri laite- ja selainympäristöissä.
 Validaattori on sivun tekijän apuväline, ei itsetarkoitus. Esimerkiksi

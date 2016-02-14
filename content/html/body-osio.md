@@ -8,6 +8,9 @@ weight = 4
 
 +++
 
+{{% jessyink src="html-johdanto.svg#11" %}}
+{{% /jessyink %}}
+
 Dokumentin varsinainen sisältö kirjoitetaan *body*-osioon `<body>`-tagin sisään.
 Sisältö jaotellaan tageilla loogisiin osiin ja merkitään niillä osien merkityksen
 mukaisesti.

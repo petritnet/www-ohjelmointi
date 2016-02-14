@@ -8,6 +8,9 @@ weight = 60
 
 +++
 
+{{% jessyink src="html-johdanto.svg#18" %}}
+{{% /jessyink %}}
+
 [Taulukkoa][Taulukko] käytetään riveistä ja sarakkeista koostuvan datan esittämiseen.
 Esimerkiksi alkuainetaulukko tai lukujärjestys ovat lunnostaan tällaisia.
 

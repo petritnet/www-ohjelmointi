@@ -8,6 +8,9 @@ weight = 45
 
 +++
 
+{{% jessyink src="html-johdanto.svg#12" %}}
+{{% /jessyink %}}
+
 Www-sivun sisältöä voidaan ja se kannattaa tarvittaessa ryhmitellä osiin. Sisällön jaotteluun on
 aiemmissa HTML:n versioissa käytetty `<div>`- ja `<span>`-tageja ja HTML5:n myötä käytettäväksi
 on saatu useita muita tageja. Alkuperäisillä `<div>`- ja `<span>`-tageilla ei ole sellaisenaan

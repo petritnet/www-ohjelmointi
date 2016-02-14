@@ -346,6 +346,10 @@ li.jokeri:before {
     border-radius: 8px 0 0 8px;
 }
 
+.content pre {
+    background-color: #f8f8f8;
+}
+
 .content pre code {
     border-left: 2px solid black;
 }

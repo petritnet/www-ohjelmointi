@@ -8,6 +8,9 @@ weight = 3
 
 +++
 
+{{% jessyink src="html-johdanto.svg#9" %}}
+{{% /jessyink %}}
+
 Head-osioon merkitään tietoa dokumentista sen näyttämistä varten. Ei siis varsinaista sisältöä.
 Määrittelyjä ovat esimerkiksi:
 

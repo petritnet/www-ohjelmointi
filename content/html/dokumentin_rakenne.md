@@ -10,6 +10,9 @@ weight = 2
 
 HTML-tagit
 ==========
+{{% jessyink src="html-johdanto.svg#4" %}}
+{{% /jessyink %}}
+
 HTML-dokumentti on tekstiä, jolle on annettu rakenne merkitsemällä sen
 osia erilaisilla HTML-kielen *tageilla*. Tekstin osan alku merkitään
 aloitustagilla ja loppu lopetustagilla.

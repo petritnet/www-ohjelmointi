@@ -8,6 +8,9 @@ weight = 10
 
 +++
 
+{{% jessyink src="css-johdanto.svg" %}}
+{{% /jessyink %}}
+
 CSS-määrittelyt muodostuvat avain–arvo -pareista siten, että määrittelyssä ensin tulee
 määriteltävä **ominaisuus**, sen jälkeen kaksoispiste **`:`**, ominaisuuden **arvo** sekä lopuksi
 puolipiste **`;`**. CSS-määrittelyt ovat samaa muotoa riippumatta siitä, onko ne kirjoitettu
@@ -15,7 +18,7 @@ suoraan HTML-elementin `style`-attribuuttiin vai erillisiksi valitsimilla kohden
 tyylisäännöiksi.
 
 <figure>
-<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="500" height="200" viewBox="0 0 500 200" class="chart">
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="420" height="200" viewBox="0 0 420 200" class="chart">
     <text x="10" y="100" style="font-weight: bold;">
         &lt;h1 style="<tspan style="fill: blue;">color</tspan><tspan style="fill: red;">:</tspan> <tspan style="fill: green;">red</tspan><tspan style="fill: red;">;</tspan> <tspan style="fill: blue;">font-size</tspan><tspan style="fill: red;">:</tspan> <tspan style="fill: green;">10px</tspan><tspan style="fill: red;">;</tspan>"&gt;Otsikko&lt;/h1&gt;
     </text>

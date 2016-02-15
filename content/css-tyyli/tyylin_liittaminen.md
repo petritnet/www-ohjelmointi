@@ -8,6 +8,9 @@ weight = 3
 
 +++
 
+{{% jessyink src="css-johdanto.svg" %}}
+{{% /jessyink %}}
+
 CSS-tyylisääntöjä voi liittää dokumenttiin kolmella tavalla:
 
 * Suoraan HTML-elementtin tagiin `style`-attribuutilla.

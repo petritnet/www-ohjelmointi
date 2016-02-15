@@ -5,6 +5,9 @@ weight = 2
 
 +++
 
+{{% jessyink src="css-johdanto.svg" %}}
+{{% /jessyink %}}
+
 Tyylisäännössä on yleisesti kaksi osaa:
 
 * __Valitsin__ (selector), joka määrää, mitä elementtejä sääntö koskee.

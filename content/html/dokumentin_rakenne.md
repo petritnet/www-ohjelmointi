@@ -176,6 +176,58 @@ Esimerkki:
 * Kuvatagissa attribuutti `src` kertoo osoitteen, josta näytettävä kuva haetaan:<br>
   `<img src="http://petrit.net/www-ohjelmointi/images/kuva.png">`
 
+Id:t ja luokat
+--------------
+Kaksi erityistä attribuuttia, joilla HTML-elementtejä voidaan merkitä, ovat `id` ja `class`.
+Näistä `id` on tarkoitettu attribuutiksi, jolla elementille annetaan dokumentin sisällä
+yksilöllinen nimi, jolla siihen voidaan viitata esimerkiksi CSS-tyylityksissä, Javascript-toiminnallisuudessa
+tai sivun linkityksessä.  Esimerkiksi dokumentin sisällä voidaan toteuttaa linkityksiä
+viittaamalla näihin nimettyihin elementteihin `id`-attribuutin arvolla.
+
+```
+<a href="#linkitys">Linkitys</a>
+...
+<h1 id="linkitys">Linkitys</a>
+```
+<div class="html-example">
+<a href="#linkitys">Linkitys</a>
+<br>...
+<h1 id="linkitys">Linkitys</a>
+</div>
+
+`class`-attribuutilla voidaan merkitä elementti kuulumaan yhteen tai useampaan "luokkaan",
+eli kertoa elementin olevan jotain tiettyä tyyppiä kyseisessä dokumentissa. Luokkia voidaan
+hyödyntää esimerkiksi ulkoasun tyylittelyssä määräämällä tiettyyn luokkaan kuuluville elementeille
+keskenään yhtenäinen ulkoasu. Attribuuttiin voidaan laittaa useampi luokka erottelemalla ne välilyönneillä.
+
+```
+<article class="blogpost latestpost">
+    <div class="author">Petri Salmela</div>
+    <div class="postcontent">
+        ...
+    </div>
+</article>
+<article class="blogpost">
+    <div class="author">Petri Salmela</div>
+    <div class="postcontent">
+        ...
+    </div>
+</article>
+```
+<div class="html-example">
+<article class="blogpost latestpost" style="margin: 2em; padding: 0.5em; border: 1px solid #777; border-radius: 0.5em; background-color: #ffa;">
+    <div class="author" style="background-color: black; color: white; border-radius: 0.5em 0.5em 0 0; margin: -0.5em -0.5em 0.5em -0.5em; padding: 0.3em 0.5em; font-style: italic;">Petri Salmela</div>
+    <div class="postcontent">
+        ...
+    </div>
+</article>
+<article class="blogpost" style="margin: 2em; padding: 0.5em; border: 1px solid #777; border-radius: 0.5em;">
+    <div class="author" style="background-color: black; color: white; border-radius: 0.5em 0.5em 0 0; margin: -0.5em -0.5em 0.5em -0.5em; padding: 0.3em 0.5em; font-style: italic;">Matti Meikäläinen</div>
+    <div class="postcontent">
+        ...
+    </div>
+</article>
+</div>
 
 HTML-dokumentti
 =========

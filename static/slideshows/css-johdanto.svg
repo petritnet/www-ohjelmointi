@@ -26,12 +26,12 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.67396115"
-     inkscape:cx="745.41994"
+     inkscape:cx="923.47175"
      inkscape:cy="400.44228"
      inkscape:document-units="px"
-     inkscape:current-layer="layer5"
+     inkscape:current-layer="layer7"
      inkscape:window-width="1920"
-     inkscape:window-height="1122"
+     inkscape:window-height="1131"
      inkscape:window-x="0"
      inkscape:window-y="0"
      showgrid="false"
@@ -5291,7 +5291,7 @@
   </g>
   <g
      style="display:none"
-     inkscape:label="Taso"
+     inkscape:label="CSS-tyylit"
      id="layer4"
      inkscape:groupmode="layer"
      sodipodi:insensitive="true">
@@ -5323,10 +5323,11 @@
        style="display:inline;fill:none;fill-rule:evenodd;stroke:#aa0000;stroke-width:6.19239092;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
   </g>
   <g
-     style="display:inline"
-     inkscape:label="Taso#2"
+     style="display:none"
+     inkscape:label="CSS-tyylikieli"
      id="layer5"
-     inkscape:groupmode="layer">
+     inkscape:groupmode="layer"
+     sodipodi:insensitive="true">
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:50.20158386px;line-height:125%;font-family:'Trebuchet MS';-inkscape-font-specification:'Trebuchet MS';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none"
@@ -5421,6 +5422,521 @@
          y="807.04889"
          id="tspan5242"
          style="fill:#000000">}</tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Valitsimet"
+     style="display:none"
+     sodipodi:insensitive="true">
+    <text
+       sodipodi:linespacing="125%"
+       id="text5365"
+       y="237.80582"
+       x="149.71014"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:50.20158386px;line-height:125%;font-family:'Trebuchet MS';-inkscape-font-specification:'Trebuchet MS';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none"
+       xml:space="preserve"><tspan
+         y="237.80582"
+         x="149.71014"
+         sodipodi:role="line"
+         id="tspan5367"
+         style="font-size:50.20158386px">Valitsin kertoo, mitä elementtejä kyseiset säännöt koskevat.</tspan><tspan
+         y="300.5578"
+         x="149.71014"
+         sodipodi:role="line"
+         style="font-size:50.20158386px"
+         id="tspan5386">Muodostuu yhdistelmänä seuraavista:</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text5369"
+       y="112.08102"
+       x="799.78125"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:64px;line-height:125%;font-family:'Trebuchet MS';-inkscape-font-specification:'Trebuchet MS Bold';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:inline;fill:#000000;fill-opacity:1;stroke:none"
+       xml:space="preserve"><tspan
+         y="112.08102"
+         x="799.78125"
+         id="tspan5371"
+         sodipodi:role="line">Valitsimet</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text5373"
+       y="385.27563"
+       x="228.28754"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:45px;line-height:125%;font-family:'Trebuchet MS';-inkscape-font-specification:'Trebuchet MS';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none"
+       xml:space="preserve"><tspan
+         y="385.27563"
+         x="228.28754"
+         sodipodi:role="line"
+         id="tspan5375">Tagin nimi: <tspan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:monospace;-inkscape-font-specification:monospace;fill:#aa0000"
+   id="tspan6244">h1</tspan>, <tspan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:monospace;-inkscape-font-specification:monospace;fill:#aa0000"
+   id="tspan6240">p</tspan>, <tspan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:monospace;-inkscape-font-specification:monospace;fill:#aa0000"
+   id="tspan6236">span</tspan>, <tspan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:monospace;-inkscape-font-specification:monospace;fill:#aa0000"
+   id="tspan6232">div</tspan>, ...</tspan></text>
+    <circle
+       style="opacity:1;fill:#aa0000;fill-opacity:1;stroke:none;stroke-width:6;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.94117647"
+       id="path5388"
+       cx="189.92192"
+       cy="368.0394"
+       r="10.386355" />
+    <circle
+       r="10.386355"
+       cy="428.0394"
+       cx="189.92192"
+       id="circle6206"
+       style="opacity:1;fill:#aa0000;fill-opacity:1;stroke:none;stroke-width:6;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.94117647" />
+    <circle
+       style="opacity:1;fill:#aa0000;fill-opacity:1;stroke:none;stroke-width:6;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.94117647"
+       id="circle6212"
+       cx="189.92192"
+       cy="488.0394"
+       r="10.386355" />
+    <circle
+       r="10.386355"
+       cy="548.03943"
+       cx="189.92192"
+       id="circle6218"
+       style="opacity:1;fill:#aa0000;fill-opacity:1;stroke:none;stroke-width:6;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.94117647" />
+    <circle
+       style="opacity:1;fill:#aa0000;fill-opacity:1;stroke:none;stroke-width:6;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.94117647"
+       id="circle6224"
+       cx="189.92192"
+       cy="608.03943"
+       r="10.386355" />
+    <circle
+       r="10.386355"
+       cy="668.03943"
+       cx="189.92192"
+       id="circle6230"
+       style="opacity:1;fill:#aa0000;fill-opacity:1;stroke:none;stroke-width:6;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.94117647" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:45px;line-height:125%;font-family:'Trebuchet MS';-inkscape-font-specification:'Trebuchet MS';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none"
+       x="228.28754"
+       y="445.27563"
+       id="text6248"
+       sodipodi:linespacing="125%"><tspan
+         id="tspan6250"
+         sodipodi:role="line"
+         x="228.28754"
+         y="445.27563">Elementin id: <tspan
+   id="tspan6252"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:monospace;-inkscape-font-specification:monospace;fill:#aa0000">#otsikko</tspan>, <tspan
+   id="tspan6254"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:monospace;-inkscape-font-specification:monospace;fill:#aa0000">#valikko</tspan>, <tspan
+   id="tspan6256"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:monospace;-inkscape-font-specification:monospace;fill:#aa0000">#panel</tspan>, ...</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text6260"
+       y="505.27563"
+       x="228.28754"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:45px;line-height:125%;font-family:'Trebuchet MS';-inkscape-font-specification:'Trebuchet MS';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none"
+       xml:space="preserve"><tspan
+         y="505.27563"
+         x="228.28754"
+         sodipodi:role="line"
+         id="tspan6280">Elementin luokka: <tspan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:monospace;-inkscape-font-specification:monospace;fill:#aa0000"
+   id="tspan6282">.navi</tspan>, <tspan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:monospace;-inkscape-font-specification:monospace;fill:#aa0000"
+   id="tspan6266">.address</tspan>, ...</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:45px;line-height:125%;font-family:'Trebuchet MS';-inkscape-font-specification:'Trebuchet MS';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none"
+       x="228.28754"
+       y="565.27563"
+       id="text6270"
+       sodipodi:linespacing="125%"><tspan
+         id="tspan6272"
+         sodipodi:role="line"
+         x="228.28754"
+         y="565.27563">Pseudo-luokka: <tspan
+   id="tspan6274"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:monospace;-inkscape-font-specification:monospace;fill:#aa0000">:hover</tspan>, <tspan
+   id="tspan6276"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:monospace;-inkscape-font-specification:monospace;fill:#aa0000">:visited</tspan>, <tspan
+   id="tspan6278"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:monospace;-inkscape-font-specification:monospace;fill:#aa0000">:first-child</tspan>, ...</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text6289"
+       y="625.27563"
+       x="228.28754"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:45px;line-height:125%;font-family:'Trebuchet MS';-inkscape-font-specification:'Trebuchet MS';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none"
+       xml:space="preserve"><tspan
+         y="625.27563"
+         x="228.28754"
+         sodipodi:role="line"
+         id="tspan6291">Pseudo-elementti: <tspan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:monospace;-inkscape-font-specification:monospace;fill:#aa0000"
+   id="tspan6293">::begin</tspan>, <tspan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:monospace;-inkscape-font-specification:monospace;fill:#aa0000"
+   id="tspan6295">::after</tspan>, <tspan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:monospace;-inkscape-font-specification:monospace;fill:#aa0000"
+   id="tspan6297">::first-letter</tspan>, ...</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:45px;line-height:125%;font-family:'Trebuchet MS';-inkscape-font-specification:'Trebuchet MS';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none"
+       x="228.28754"
+       y="685.27563"
+       id="text6299"
+       sodipodi:linespacing="125%"><tspan
+         id="tspan6301"
+         sodipodi:role="line"
+         x="228.28754"
+         y="685.27563">Attribuutti: <tspan
+   id="tspan6303"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:monospace;-inkscape-font-specification:monospace;fill:#aa0000">[title]</tspan>, <tspan
+   id="tspan6305"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:monospace;-inkscape-font-specification:monospace;fill:#aa0000">[target=&quot;_blank&quot;]</tspan>,</tspan><tspan
+         sodipodi:role="line"
+         x="228.28754"
+         y="742.15918"
+         id="tspan6309"><tspan
+   id="tspan6307"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:monospace;-inkscape-font-specification:monospace;fill:#aa0000">          [data-order=&quot;4&quot;]</tspan>, ...</tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="Valitsimet (2)"
+     style="display:none"
+     sodipodi:insensitive="true">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:50.20158386px;line-height:125%;font-family:'Trebuchet MS';-inkscape-font-specification:'Trebuchet MS';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none"
+       x="149.71014"
+       y="237.80582"
+       id="text6325"
+       sodipodi:linespacing="125%"><tspan
+         id="tspan6329"
+         style="font-size:50.20158386px"
+         sodipodi:role="line"
+         x="149.71014"
+         y="237.80582">Valitsimista muodostuu &quot;polku&quot; halutulle elementille.</tspan><tspan
+         style="font-size:50.20158386px"
+         sodipodi:role="line"
+         x="149.71014"
+         y="300.5578"
+         id="tspan6342">Valitsin valitsee kaikki elementit, jotka täyttävät sen</tspan><tspan
+         style="font-size:50.20158386px"
+         sodipodi:role="line"
+         x="149.71014"
+         y="363.30978"
+         id="tspan6344">asettamat ehdot.</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:64px;line-height:125%;font-family:'Trebuchet MS';-inkscape-font-specification:'Trebuchet MS Bold';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:inline;fill:#000000;fill-opacity:1;stroke:none"
+       x="799.78125"
+       y="112.08102"
+       id="text6331"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan6333"
+         x="799.78125"
+         y="112.08102">Valitsimet</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text6346"
+       y="457.80582"
+       x="149.71014"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:50.20158386px;line-height:125%;font-family:'Trebuchet MS';-inkscape-font-specification:'Trebuchet MS';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none"
+       xml:space="preserve"><tspan
+         id="tspan6352"
+         y="457.80582"
+         x="149.71014"
+         sodipodi:role="line"
+         style="font-size:50.20158386px">Elementit, joiden pitää olla sisäkkäin, erotellaan</tspan><tspan
+         y="520.5578"
+         x="149.71014"
+         sodipodi:role="line"
+         style="font-size:50.20158386px"
+         id="tspan6359">välilyönnillä.</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:50.20158386px;line-height:125%;font-family:'Trebuchet MS';-inkscape-font-specification:'Trebuchet MS';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none"
+       x="149.71014"
+       y="617.80579"
+       id="text6361"
+       sodipodi:linespacing="125%"><tspan
+         id="tspan6365"
+         style="font-size:50.20158386px"
+         sodipodi:role="line"
+         x="149.71014"
+         y="617.80579">Saman elementin tarkentavat valitsimet kirjoitetaan</tspan><tspan
+         style="font-size:50.20158386px"
+         sodipodi:role="line"
+         x="149.71014"
+         y="680.55774"
+         id="tspan6369">yhteen.</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text6371"
+       y="777.80579"
+       x="149.71014"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:50.20158386px;line-height:125%;font-family:'Trebuchet MS';-inkscape-font-specification:'Trebuchet MS';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none"
+       xml:space="preserve"><tspan
+         id="tspan6375"
+         y="777.80579"
+         x="149.71014"
+         sodipodi:role="line"
+         style="font-size:50.20158386px">Useampi rinnakkainen valitsin samoille tyylisäännöille</tspan><tspan
+         y="840.55774"
+         x="149.71014"
+         sodipodi:role="line"
+         style="font-size:50.20158386px"
+         id="tspan6379">erotellaan pilkuilla.</tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer6"
+     inkscape:label="Valitsimet (3)"
+     style="display:none"
+     sodipodi:insensitive="true">
+    <text
+       sodipodi:linespacing="125%"
+       id="text6390"
+       y="112.08102"
+       x="799.78125"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:64px;line-height:125%;font-family:'Trebuchet MS';-inkscape-font-specification:'Trebuchet MS Bold';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:inline;fill:#000000;fill-opacity:1;stroke:none"
+       xml:space="preserve"><tspan
+         y="112.08102"
+         x="799.78125"
+         id="tspan6392"
+         sodipodi:role="line">Valitsimet</tspan></text>
+    <rect
+       y="190.76033"
+       x="173.60051"
+       height="666.21051"
+       width="1323.5184"
+       id="rect6400"
+       style="display:inline;fill:#ffeeaa;fill-opacity:1;stroke:#aa0000;stroke-width:6;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.94117647" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text6405"
+       y="277.04889"
+       x="253.72382"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:125%;font-family:monospace;-inkscape-font-specification:monospace;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         style="fill:#000000"
+         y="277.04889"
+         x="253.72382"
+         id="tspan6407"
+         sodipodi:role="line">div.asia p.peruskappale span a {</tspan><tspan
+         style="fill:#000000"
+         id="tspan6411"
+         y="327.04889"
+         x="253.72382"
+         sodipodi:role="line">    ...määrittelyt...</tspan><tspan
+         style="fill:#000000"
+         id="tspan6413"
+         y="377.04889"
+         x="253.72382"
+         sodipodi:role="line">}</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:125%;font-family:monospace;-inkscape-font-specification:monospace;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="253.72382"
+       y="457.04889"
+       id="text6442"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan6444"
+         x="253.72382"
+         y="457.04889"
+         style="fill:#000000">div.asia[title] p.peruskappale:first-child</tspan><tspan
+         sodipodi:role="line"
+         x="253.72382"
+         y="507.04889"
+         style="fill:#000000"
+         id="tspan6450">    span a:visited:hover {</tspan><tspan
+         sodipodi:role="line"
+         x="253.72382"
+         y="557.04889"
+         id="tspan6446"
+         style="fill:#000000">    ...määrittelyt...</tspan><tspan
+         sodipodi:role="line"
+         x="253.72382"
+         y="607.04889"
+         id="tspan6448"
+         style="fill:#000000">}</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text6452"
+       y="677.04889"
+       x="253.72382"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:125%;font-family:monospace;-inkscape-font-specification:monospace;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         id="tspan6456"
+         style="fill:#000000"
+         y="677.04889"
+         x="253.72382"
+         sodipodi:role="line">div.asia p.peruskappale span a,</tspan><tspan
+         style="fill:#000000"
+         y="727.04889"
+         x="253.72382"
+         sodipodi:role="line"
+         id="tspan6464">div.asia p.peruskappale span strong {</tspan><tspan
+         style="fill:#000000"
+         id="tspan6458"
+         y="777.04889"
+         x="253.72382"
+         sodipodi:role="line">    ...määrittelyt...</tspan><tspan
+         style="fill:#000000"
+         id="tspan6460"
+         y="827.04889"
+         x="253.72382"
+         sodipodi:role="line">}</tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer7"
+     inkscape:label="Valitsimet (4)">
+    <text
+       sodipodi:linespacing="125%"
+       id="text6467"
+       y="237.80582"
+       x="149.71014"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:50.20158386px;line-height:125%;font-family:'Trebuchet MS';-inkscape-font-specification:'Trebuchet MS';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none"
+       xml:space="preserve"><tspan
+         id="tspan6473"
+         y="237.80582"
+         x="149.71014"
+         sodipodi:role="line"
+         style="font-size:50.20158386px">CSS:n nimi, Cascading Style Sheets, tulee siitä, että samalle</tspan><tspan
+         y="300.5578"
+         x="149.71014"
+         sodipodi:role="line"
+         style="font-size:50.20158386px"
+         id="tspan6496">elementille määrätyt säännöt limittyvät keskenään.</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text6475"
+       y="112.08102"
+       x="799.78125"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:64px;line-height:125%;font-family:'Trebuchet MS';-inkscape-font-specification:'Trebuchet MS Bold';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:inline;fill:#000000;fill-opacity:1;stroke:none"
+       xml:space="preserve"><tspan
+         y="112.08102"
+         x="799.78125"
+         id="tspan6477"
+         sodipodi:role="line">Tyylisääntöjen tärkeysjärjestys</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:50.20158386px;line-height:125%;font-family:'Trebuchet MS';-inkscape-font-specification:'Trebuchet MS';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none"
+       x="149.71014"
+       y="237.80582"
+       id="text6498"
+       sodipodi:linespacing="125%"><tspan
+         style="font-size:50.20158386px"
+         sodipodi:role="line"
+         x="149.71014"
+         y="237.80582"
+         id="tspan6500">CSS:n nimi, Cascading Style Sheets, tulee siitä, että samalle</tspan><tspan
+         id="tspan6502"
+         style="font-size:50.20158386px"
+         sodipodi:role="line"
+         x="149.71014"
+         y="300.5578">elementille määrätyt säännöt limittyvät keskenään.</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text6504"
+       y="397.80582"
+       x="149.71014"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:50.20158386px;line-height:125%;font-family:'Trebuchet MS';-inkscape-font-specification:'Trebuchet MS';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none"
+       xml:space="preserve"><tspan
+         y="397.80582"
+         x="149.71014"
+         sodipodi:role="line"
+         style="font-size:50.20158386px"
+         id="tspan6508">Ristiriitaisista säännöistä tarkimmin kohdistettu jää voimaan:</tspan></text>
+    <circle
+       r="10.386355"
+       cy="468.0394"
+       cx="189.92192"
+       id="circle6512"
+       style="display:inline;opacity:1;fill:#aa0000;fill-opacity:1;stroke:none;stroke-width:6;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.94117647" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:45px;line-height:125%;font-family:'Trebuchet MS';-inkscape-font-specification:'Trebuchet MS';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none"
+       x="228.28754"
+       y="485.27563"
+       id="text6514"
+       sodipodi:linespacing="125%"><tspan
+         id="tspan6516"
+         sodipodi:role="line"
+         x="228.28754"
+         y="485.27563">Inline-sääntö: elementtiin <tspan
+   style="fill:#aa0000;-inkscape-font-specification:monospace;font-family:monospace;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal"
+   id="tspan6539">style</tspan>-attribuutilla kirjoitettu</tspan><tspan
+         sodipodi:role="line"
+         x="228.28754"
+         y="541.52563"
+         id="tspan6537">yliajaa kaikki muut säännöt</tspan></text>
+    <circle
+       style="display:inline;opacity:1;fill:#aa0000;fill-opacity:1;stroke:none;stroke-width:6;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.94117647"
+       id="circle6543"
+       cx="189.92192"
+       cy="588.03943"
+       r="10.386355" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text6545"
+       y="605.27563"
+       x="228.28754"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:45px;line-height:125%;font-family:'Trebuchet MS';-inkscape-font-specification:'Trebuchet MS';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none"
+       xml:space="preserve"><tspan
+         id="tspan6551"
+         y="605.27563"
+         x="228.28754"
+         sodipodi:role="line">Tarkimmalla valitsimella määrätty sääntö on tärkeämpi</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:125%;font-family:'Trebuchet MS';-inkscape-font-specification:'Trebuchet MS';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none"
+       x="228.28754"
+       y="665.27563"
+       id="text6556"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="228.28754"
+         y="665.27563"
+         id="tspan6558"><tspan
+   style="fill:#aa0000"
+   id="tspan6572">id</tspan> on vahvempi kuin <tspan
+   style="fill:#aa0000"
+   id="tspan6566">luokka</tspan>, <tspan
+   style="fill:#aa0000"
+   id="tspan6568">pseudoluokka</tspan> tai <tspan
+   style="fill:#aa0000"
+   id="tspan6570">attribuutti</tspan>, jotka</tspan><tspan
+         sodipodi:role="line"
+         x="228.28754"
+         y="715.27563"
+         id="tspan6560">ovat vahvempia kuin <tspan
+   style="fill:#aa0000"
+   id="tspan6564">tagi</tspan> tai <tspan
+   style="fill:#aa0000"
+   id="tspan6562">pseudoelementti</tspan></tspan></text>
+    <circle
+       r="10.386355"
+       cy="768.03943"
+       cx="189.92192"
+       id="circle6574"
+       style="display:inline;opacity:1;fill:#aa0000;fill-opacity:1;stroke:none;stroke-width:6;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.94117647" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:45px;line-height:125%;font-family:'Trebuchet MS';-inkscape-font-specification:'Trebuchet MS';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none"
+       x="228.28754"
+       y="785.27563"
+       id="text6576"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="228.28754"
+         y="785.27563"
+         id="tspan6578">Myöhempi sääntö peittää aiemman saman arvoisen säännön.</tspan></text>
   </g>
   <script
      ns1:version="1.5.5"

@@ -23,7 +23,9 @@ Valitsin on yhdistelmä seuraavia:
 * Attribuutit: `[title]`, `[target="_blank"]`, `[data-order="4"]`,...
 
 Valitsin on ikäänkuin polku halutulle elementille. Valitsin valitsee kaikki ne HTML-dokumentin
-elementit, jotka täyttävät valitsimen asettamat ehdot.
+elementit, jotka täyttävät valitsimen asettamat ehdot. Jos elementtien halutaan
+olevan sisäkkäin, niihin viittaavien elementtien väliin jätetään välilyönti. Jos taas
+elementille halutaan antaa tarkentavia valitsimia, kirjoitetaan valitsimet yhteen.
 
 ```css
 div.asia p.peruskappale span a {

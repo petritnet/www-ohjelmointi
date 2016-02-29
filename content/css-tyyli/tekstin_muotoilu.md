@@ -32,9 +32,9 @@ Tälle ominaisuudelle voidaan antaa arvo useammassa eri muodossa:
 - **RGB-koodilla desimaalimuodossa** (<span style="color: rgb(200,82,132);">rgb(200,82,132)</span>,
   <span style="color: rgb(170,20,180);">rgb(170,20,180)</span>)
 - **RGBA-koodilla**, jossa neljäs komponentti on läpinäkyvyys
-  (<span style="color: rgba(20,20,170,0.2);">rgb(20,20,170,0.2)</span>,
-  <span style="color: rgba(20,20,170,0.5);">rgb(20,20,170,0.5)</span>,
-  <span style="color: rgba(20,20,170,0.9);">rgb(20,20,170,0.9)</span>)
+  (<span style="color: rgba(20,20,170,0.2);">rgba(20,20,170,0.2)</span>,
+  <span style="color: rgba(20,20,170,0.5);">rgba(20,20,170,0.5)</span>,
+  <span style="color: rgba(20,20,170,0.9);">rgba(20,20,170,0.9)</span>)
 
 Sopivia arvoja väreille voi etsiä esimerkiksi kuvankäsittelyohjelmalla tai jollain
 [Color Picker](http://www.colorpicker.com/)-sovelluksella. Firefox- ja Chrome-selaimille

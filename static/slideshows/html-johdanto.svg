@@ -31,7 +31,7 @@
      inkscape:document-units="px"
      inkscape:current-layer="layer35"
      inkscape:window-width="1920"
-     inkscape:window-height="1122"
+     inkscape:window-height="1131"
      inkscape:window-x="0"
      inkscape:window-y="0"
      showgrid="false"
@@ -1268,8 +1268,8 @@
      inkscape:groupmode="layer"
      id="layer35"
      inkscape:label="Id ja luokka"
-     sodipodi:insensitive="true"
-     style="display:none">
+     style="display:none"
+     sodipodi:insensitive="true">
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:50.20158386px;line-height:125%;font-family:'Trebuchet MS';-inkscape-font-specification:'Trebuchet MS';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none"
@@ -1319,7 +1319,7 @@
    style="font-size:30px;fill:#0000ff"
    id="tspan4611">&lt;a</tspan><tspan
    style="font-size:30px;fill:#aa0000"
-   id="tspan4613"> href=&quot;ohje&quot;</tspan><tspan
+   id="tspan4613"> href=&quot;#ohje&quot;</tspan><tspan
    style="font-size:30px;fill:#0000ff"
    id="tspan4616">&gt;</tspan>Linkki ohjeeseen<tspan
    style="font-size:30px;fill:#0000ff"

@@ -11,6 +11,15 @@ weight = 4
 Lataa itsellesi [html-tiedosto][html-pohja] (hiiren oikea nappi, "tallenna linkki").
 Lisää `head`-osioon uusi `style`-tagi ja sen sisälle seuraavat muotoilut css-sääntöinä:
 
+1. Kasvata sivun ylimmän otsikon ("Esimerkkisivu") kokoa noin kaksinkertaiseksi
+2. Muuta sisällön `h1`-otsikoiden väriksi tummansininen (`darkblue`).
+3. Muuta sisällön `h2`-otsikoiden väriksi tummanpunainen (`darkred`) sekä asettele ne keskitetysti.
+4. Poista linkeiltä alleviivaus (`text-decoration`) ja muuta niiden tyyli (`text-style`) kursivoiduiksi (`italic`).
+5. Aseta body-elementin taustakuvaksi kuva: http://upload.wikimedia.org/wikipedia/commons/f/f1/Tournesol.png .
+    Asettele kuva pystysuunnassa keskelle, sivusuunnassa oikealle, älä toista kuvaa. Aseta kuvalisäksi paikalleen
+    kiinteästi css-säännöllä: `background-attachment: fixed;`
+6. Muuta `strong`-tagilla merkityt tekstit punaisiksi ja alleviivatuiksi (`text-decoration`).
+7. Aseta `em`-tagilla merkityille teksteille vaaleankeltainen taustaväri.
 1. Lisää `em`-tagilla merkityille teksteille yhden pikselin paksuinen harmaa (`gray`)
     katkoviivoitettu (`dashed`) reunus.
 2. Lisää otsakkeelle (`header`):

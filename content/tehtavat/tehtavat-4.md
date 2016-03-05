@@ -16,7 +16,7 @@ Lisää `head`-osioon uusi `style`-tagi ja sen sisälle seuraavat muotoilut css-
 3. Muuta sisällön `h2`-otsikoiden väriksi tummanpunainen (`darkred`) sekä asettele ne keskitetysti.
 4. Poista linkeiltä alleviivaus (`text-decoration`) ja muuta niiden tyyli (`text-style`) kursivoiduiksi (`italic`).
 5. Aseta body-elementin taustakuvaksi kuva: http://upload.wikimedia.org/wikipedia/commons/f/f1/Tournesol.png .
-    Asettele kuva pystysuunnassa keskelle, sivusuunnassa oikealle, älä toista kuvaa. Aseta kuvalisäksi paikalleen
+    Asettele kuva pystysuunnassa ylös, sivusuunnassa vasemmalle, toista kuvaa pysty- ja vaakasuunnassa. Aseta kuvalisäksi paikalleen
     kiinteästi css-säännöllä: `background-attachment: fixed;`
 6. Muuta `strong`-tagilla merkityt tekstit punaisiksi ja alleviivatuiksi (`text-decoration`).
 7. Aseta `em`-tagilla merkityille teksteille vaaleankeltainen taustaväri.

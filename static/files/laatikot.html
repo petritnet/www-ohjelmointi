@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Laatikot</title>
+        <meta charset="UTF-8" />
+        <style type="text/css">
+            h1 {
+                border-bottom: 3px double black;
+            }
+            h2 {
+                margin-top: 4em;
+                border-bottom: 1px solid black;
+                clear: both;
+            }
+            .isolaatikko {
+                width: 400px;
+                height: 400px;
+                margin: 1em;
+                overflow: hidden;
+                border: 1px solid black;
+                background-color: #ccf;
+                box-shadow: inset 3px 3px 3px rgba(0,0,0,0.3), inset -3px -3px 3px rgba(255,255,255,0.3);
+            }
+            
+            .pikkulaatikko {
+                width: 78px;
+                height: 78px;
+                border: 1px solid red;
+                text-align: center;
+                background-color: #fcc;
+                
+            }
+            #teht5 .laatikko2, #teht6 .laatikko2 {
+                height: 118px;
+            }
+            .mallikuva {
+                float: right;
+                position: relative;
+                width: 406px;
+                min-height: 300px;
+                padding: 4px;
+                margin-top: -4px;
+                background-color: white;
+                box-shadow: 0 0 3px rgba(0,0,0,0.4);
+            }
+            
+            .mallikuva:after {
+                display: block;
+                position: absolute;
+                font-weight: bold;
+                font-size: 150%;
+                font-family: "Comic Sans MS", sans-serif;
+                color: red;
+                border: 2px solid red;
+                border-radius: 0.5em;
+                content: "Mallikuva";
+                background-color: rgba(255,255,255,0.7);
+                padding: 0.6em;
+                top: 150px;
+                left: 140px;
+                transform: rotate(-30deg);
+                -ms-transform: rotate(-30deg);
+                -moz-transform: rotate(-30deg);
+                -webkit-transform: rotate(-30deg);
+                -o-transform: rotate(-30deg);
+                text-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+            }
+            .keltainen {
+                border: 1px dotted #999;
+                background-color: #ffa;
+            }
+            .harmaa {
+                border: 1px dotted #999;
+                background-color: #ddd;
+            }
+            
+        </style>
+        <link rel="stylesheet" type="text/css" href="xlaatikot.css" />
+    </head>
+    <body>
+        <h1>Laatikoita</h1>
+        <p>Tallenna tämä html-tiedosto itsellesi ja luo samaan kansioon uusi
+        css-tiedosto, jonka nimi on <code>laatikot.css</code>. Tee siihen seuraavat tyylimäärittelyt. Palauta css-tiedosto sähköpostilla osoitteeseen <code>www-ohjelmointi@petrit.net</code>.</p>
+        <p>Sijoittele sinisen laatikon sisällä olevat pienemmät punaiset
+        laatikot oikeassa reunassa olevan kuvan mallin mukaan kussakin
+        tehtävässä annettujen ohjeiden mukaisesti.</p>
+        <p>Isojen laatikoiden leveys ja korkeus ovat 400px, pienten laatikoiden 80px.</p>
+        <h2>Tehtävä 1</h2>
+        <p>Käytä sekä isolle että pienille laatikoille asettelua: <code>position: relative;</code>.</p>
+        <div class="mallikuva"><img src="t6.1.png" alt="malli: teht1" /></div>
+        <div id="teht1" class="isolaatikko">
+            <div class="pikkulaatikko laatikko1">div1</div>
+            <div class="pikkulaatikko laatikko2">div2</div>
+            <div class="pikkulaatikko laatikko3">div3</div>
+            <div class="pikkulaatikko laatikko4">div4</div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
+            adipiscing nisl eu mauris malesuada dictum.</p>
+            <p>Nunc mollis mi eu neque
+            euismod vel rhoncus orci mollis. Donec sed egestas dui. Suspendisse
+            vehicula, mi in condimentum lobortis, dolor velit feugiat elit, in
+            eleifend augue lectus et ligula.</p>
+            <p>Donec varius odio a tortor
+            imperdiet ultricies. Quisque ac tincidunt nisi. Morbi quis dui elit,
+            non dictum metus. Curabitur a est vitae arcu vehicula convallis eu
+            id quam.</p>
+        </div>
+        <h2>Tehtävä 2</h2>
+        <p>Käytä isolle laatikolle asettelua <code>position: relative;</code> ja
+        pienille laatikoille asettelua <code>position: absolute;</code>.</p>
+        <div class="mallikuva"><img src="t6.2.png" alt="malli: teht2" /></div>
+        <div id="teht2" class="isolaatikko">
+            <div class="pikkulaatikko laatikko1">div1</div>
+            <div class="pikkulaatikko laatikko2">div2</div>
+            <div class="pikkulaatikko laatikko3">div3</div>
+            <div class="pikkulaatikko laatikko4">div4</div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
+            adipiscing nisl eu mauris malesuada dictum.</p>
+            <p>Nunc mollis mi eu neque
+            euismod vel rhoncus orci mollis. Donec sed egestas dui. Suspendisse
+            vehicula, mi in condimentum lobortis, dolor velit feugiat elit, in
+            eleifend augue lectus et ligula.</p>
+            <p>Donec varius odio a tortor
+            imperdiet ultricies. Quisque ac tincidunt nisi. Morbi quis dui elit,
+            non dictum metus. Curabitur a est vitae arcu vehicula convallis eu
+            id quam.</p>
+        </div>
+        <h2>Tehtävä 3</h2>
+        <p>Asettele pienet laatikot limittäin kuvan mukaisesti.</p>
+        <div class="mallikuva"><img src="t6.3.png" alt="malli: teht3" /></div>
+        <div id="teht3" class="isolaatikko">
+            <div class="pikkulaatikko laatikko1">div1</div>
+            <div class="pikkulaatikko laatikko2">div2</div>
+            <div class="pikkulaatikko laatikko3">div3</div>
+            <div class="pikkulaatikko laatikko4">div4</div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
+            adipiscing nisl eu mauris malesuada dictum.</p>
+            <p>Nunc mollis mi eu neque
+            euismod vel rhoncus orci mollis. Donec sed egestas dui. Suspendisse
+            vehicula, mi in condimentum lobortis, dolor velit feugiat elit, in
+            eleifend augue lectus et ligula.</p>
+            <p>Donec varius odio a tortor
+            imperdiet ultricies. Quisque ac tincidunt nisi. Morbi quis dui elit,
+            non dictum metus. Curabitur a est vitae arcu vehicula convallis eu
+            id quam.</p>
+        </div>
+        <h2>Tehtävä 4</h2>
+        <p>Asettele pienet laatikot limittäin, kuten edellisessä tehtävässä,
+        mutta muuta niiden päälekkäisyyden järjestystä css:llä niin, että laatikko 2 on päällimmäisenä ja laatikko 4 alimmaisena. (Älä muuta
+        html-tiedostoa.)</p>
+        <div class="mallikuva"><img src="t6.4.png" alt="malli: teht4" /></div>
+        <div id="teht4" class="isolaatikko">
+            <div class="pikkulaatikko laatikko1">div1</div>
+            <div class="pikkulaatikko laatikko2">div2</div>
+            <div class="pikkulaatikko laatikko3">div3</div>
+            <div class="pikkulaatikko laatikko4">div4</div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
+            adipiscing nisl eu mauris malesuada dictum.</p>
+            <p>Nunc mollis mi eu neque
+            euismod vel rhoncus orci mollis. Donec sed egestas dui. Suspendisse
+            vehicula, mi in condimentum lobortis, dolor velit feugiat elit, in
+            eleifend augue lectus et ligula.</p>
+            <p>Donec varius odio a tortor
+            imperdiet ultricies. Quisque ac tincidunt nisi. Morbi quis dui elit,
+            non dictum metus. Curabitur a est vitae arcu vehicula convallis eu
+            id quam.</p>
+        </div>
+        <h2>Tehtävä 5</h2>
+        <p>Asettele pienet laatikot mallikuvan mukaisesti ison sivuille
+        käyttämällä <code>float</code>-ominaisuutta.</p>
+        <div class="mallikuva"><img src="t6.5.png" alt="malli: teht5" /></div>
+        <div id="teht5" class="isolaatikko">
+            <div class="pikkulaatikko laatikko1">div1</div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
+            adipiscing nisl eu mauris malesuada dictum.</p>
+            <div class="pikkulaatikko laatikko2">div2</div>
+            <div class="pikkulaatikko laatikko3">div3</div>
+            <div class="pikkulaatikko laatikko4">div4</div>
+            <p>Nunc mollis mi eu neque
+            euismod vel rhoncus orci mollis. Donec sed egestas dui. Suspendisse
+            vehicula, mi in condimentum lobortis, dolor velit feugiat elit, in
+            eleifend augue lectus et ligula.</p>
+            <p>Donec varius odio a tortor
+            imperdiet ultricies. Quisque ac tincidunt nisi. Morbi quis dui elit,
+            non dictum metus. Curabitur a est vitae arcu vehicula convallis eu
+            id quam.</p>
+        </div>
+        <h2>Tehtävä 6</h2>
+        <p>Asettele pienet laatikot mallikuvan mukaisesti ison sivuille
+        käyttämällä <code>float</code>-ominaisuutta.</p>
+        <p>Käytä css:n <code>clear</code>-ominaisuutta, että saat aiemmat
+        "kelluvat" elementit piirrettyä ennen seuraavan kelluttamista.</p>
+        <div class="mallikuva"><img src="t6.6.png" alt="malli: teht6" /></div>
+        <div id="teht6" class="isolaatikko">
+            <div class="pikkulaatikko laatikko1">div1</div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
+            adipiscing nisl eu mauris malesuada dictum.</p>
+            <div class="pikkulaatikko laatikko2">div2</div>
+            <div class="pikkulaatikko laatikko3">div3</div>
+            <div class="pikkulaatikko laatikko4">div4</div>
+            <p>Nunc mollis mi eu neque
+            euismod vel rhoncus orci mollis. Donec sed egestas dui. Suspendisse
+            vehicula, mi in condimentum lobortis, dolor velit feugiat elit, in
+            eleifend augue lectus et ligula.</p>
+            <p>Donec varius odio a tortor
+            imperdiet ultricies. Quisque ac tincidunt nisi. Morbi quis dui elit,
+            non dictum metus. Curabitur a est vitae arcu vehicula convallis eu
+            id quam.</p>
+        </div>
+        <h2>Tehtävä 7</h2>
+        <div class="mallikuva"><img src="t6.7-1.png" alt="" /> <img src="t6.7-2.png" alt="" /> <img src="t6.7-3.png" alt="" /> <img src="t6.7-4.png" alt="" /></div>
+        <p>Lisää vielä css-säännöt, jotka tekevät seuraavaa:</p>
+        <ul class="ominaisuuslista">
+            <li>Kun hiiri menee "laatikko2"-luokalla
+            varustetun pikkulaatikon päälle, sen (laatikon) taustaväri
+            vaihtuu valkoiseksi ja laatikko saa pienen
+            keltaisen "hohtovarjon".</li>
+            <li>Kun hiiri menee tehtävän 3 tai 4
+            ison laatikon päälle, sen sisällä olevat pikkulaatikot saavat harmaan varjon.</li>
+            <li>Kun hiiri menee tehtävän 3 pikkulaatikon päälle, kyseinen
+            pikkulaatikko nousee (z-index-ominaisuudella) päällimmäiseksi ja sen
+            reunuksen väri vaihtuu mustaksi.</li>
+            <li>Kun hiiren osoitin menee pikkulaatikon päälle, se (hiiren
+            osoitin, <code>cursor</code>) muuttuu <code>pointer</code>-tyyppiseksi.</li>
+            <li>Tämän tehtävälistan kohdista joka toinen on taustaltaan <span
+            class="keltainen">keltainen</span> ja joka toinen <span
+            class="harmaa">vaalean harmaa</span>.</li>
+        </ul>
+    </body>
+</html>

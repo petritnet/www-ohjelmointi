@@ -2,6 +2,7 @@
 date = "2016-01-06T12:37:40+02:00"
 title = "Tehtävät 2"
 weight = 2
+deadline = "11.3.2016"
 
 +++
 

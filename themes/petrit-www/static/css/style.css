@@ -490,6 +490,16 @@ li.jokeri:before {
  * Assignments
  ***************************/
 
+.palautus {
+    border: 2px solid #a00;
+    border-radius: 4px;
+    box-shadow: 0 0 3px rgba(0,0,0,0.5);
+    background-color: #fcc;
+    margin: 0.5em 15em 0.5em 3em;
+    padding: 0.5em;
+    font-weight: bold;
+}
+
 /*  Hide assignment elements  */
 body#tehtavasivu div.viikkotehtavat div.sisalto div.elementti{
     display:none;
@@ -513,6 +523,8 @@ body#tehtavasivu div.harjoitustyo {
     margin-top: 2em;
 }
 
+
+
 /***************************************
  * Table of Contents
  ***************************************/
@@ -531,3 +543,4 @@ body#tehtavasivu div.harjoitustyo {
     margin: 0;
     padding: 0 0.5em 0 1.5em;
 }
+

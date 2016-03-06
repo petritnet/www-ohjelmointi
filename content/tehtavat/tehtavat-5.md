@@ -5,6 +5,7 @@ Tags = []
 Title = "Tehtävät 5"
 date = "2016-03-06T01:14:48+02:00"
 weight = 5
+deadline = "18.3.2016"
 
 +++
 

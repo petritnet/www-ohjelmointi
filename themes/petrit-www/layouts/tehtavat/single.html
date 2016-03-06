@@ -15,6 +15,11 @@
 			<section itemprop="entry-text">
 				<p>Lue tehtävät läpi. Tee tehtävän harjoitus ohjeiden mukaan ja palauta tehtävässä luodut tiedostot sähköpostilla osoitteeseen
 				    <strong>www-ohjelmointi@petrit.net</strong> .</p>
+				{{ if .Params.deadline }}
+					<div class="palautus">
+					Tehtävän palautus {{ .Params.deadline }} mennessä!
+					</div>
+				{{ end }}
 				{{ .Content }}
 			</section>
 		</article>

@@ -187,6 +187,7 @@ footer {
 
 .content {
     margin-left:2em;
+    margin: 0 auto;
     padding: 0 1em;
     max-width: 55em;
     background-color: white;
@@ -406,6 +407,12 @@ li.jokeri:before {
 
 .content table:not(.rawtable) td:nth-child(even) {
     background-color: #ffa;
+}
+
+.content blockquote {
+    background-color: #ddd;
+    padding: 0.1em 1.5em;
+    border-left: 6px solid #444;
 }
 
 /***************************

@@ -93,3 +93,37 @@ viimeinen ja niin edelleen.
 "Aurajoki".substr(-3)        // "oki"
 ```
 
+Erikoismerkit
+=============
+
+On joitain erikoismerkkejä, joita on hankala kirjoittaa merkkijonoon suoraan.
+Esimerkiksi rivinvaihtoja ei voida kirjoittaa merkkijonoihin suoraa sellaisenaan.
+Näiden merkkien kirjoittamiseen käytetään takakenomerkin `\` avulla kirjoitettavia
+"escape-komentoja". Näistä tärkeimpiä ovat esimerkiksi:
+
+| Escape     | Merkitys                        |
+|------------|---------------------------------|
+| `\n`       | Rivinvaihto                     |
+| `\t`       | Tabulaattorimerkki              |
+| `\'`       | Yksöislainausmerkki             |
+| `\"`       | Kaksoislainausmerkki            |
+| `\\`       | Takakeno                        |
+| `\udddd`   | Unicode-merkki neljällä heksadesimaalinumerolla. Esimerkiksi <code>&#x00a9;</code> on `\u00A9`  |
+
+Esimerkiksi:
+
+```javascript
+var merkkijono = "Pekka sanoi: \t \"Olipa hyvä elokuva.\"\nOlli vastasi: \t \"Niin oli.\"\n\\o/\n\u262D \u2602";
+console.log(merkkijono);
+```
+<div class="html-example">
+<style type="text/css" scoped>
+.koodia {font-family: monospace; font-size: 150%; white-space: pre;}
+</style>
+<div class="koodia">
+Pekka sanoi: 	 "Olipa hyvä elokuva."
+Olli vastasi: 	 "Niin oli."
+\o/
+&#x262d; &#x2602;
+</div>
+</div>

@@ -51,7 +51,7 @@ paluaarvona `-1`.
 
 ```
 var elain = "Koira";
-elain.indexOf(i);            // 2
+elain.indexOf('i');          // 2
 elain = "Kissa";
 elain.indexOf('s')           // 2   (ensimmäinen 's'-kirjain)
 elain.indexOf('r')           // -1  (ei löytynyt)

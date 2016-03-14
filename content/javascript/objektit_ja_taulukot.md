@@ -129,8 +129,8 @@ Metodit ovat:
 |---------------|-----------------------------------|-----------------------------|-------------------------|
 | `push()`      | Lisää alkioita taulukon loppuun   | Taulukon uusi pituus        | `lista.push('Aku')`     |
 | `pop()`       | Poistaa alkion taulukon lopusta   | Taulukon viimeisen alkion   | `lista.pop()`           |
-| `shift()`     | Lisää alkion taulukon alkuun      | Taulukon uusi pituus        | `lista.shift('Mikki')   |
-| `unshift()`   | Poistaa alkioita taulukon alusta  | Taulukon ensimmäinen alkion | `lista.unshift()        |
+| `unshift()`   | Lisää alkion taulukon alkuun      | Taulukon uusi pituus        | `lista.unshift('Mikki') |
+| `shift()`     | Poistaa alkioita taulukon alusta  | Taulukon ensimmäinen alkion | `lista.shift()          |
 
 Esimerkiksi:
 
@@ -143,7 +143,7 @@ var pojat = [];
 pojat.push(lista.pop());                  // pojat === ['Lupu'], lista === ['Aku', 'Mikki', 'Hessu', 'Iines', 'Tupu', 'Hupu']
 pojat.push(lista.pop());                  // pojat === ['Lupu', 'Hupu'], lista === ['Aku', 'Mikki', 'Hessu', 'Iines', 'Tupu']
 pojat.push(lista.pop());                  // pojat === ['Lupu', 'Hupu', 'Tupu'], lista === ['Aku', 'Mikki', 'Hessu', 'Iines']
-lista.shift('Pluto');                     // lista === ['Pluto', 'Aku', 'Mikki', 'Hessu', 'Iines']
+lista.unshift('Pluto');                   // lista === ['Pluto', 'Aku', 'Mikki', 'Hessu', 'Iines']
 var koira = lista.unshift();              // koira === 'Pluto', lista === ['Aku', 'Mikki', 'Hessu', 'Iines']
 ```
 

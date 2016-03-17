@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Javascript</title>
+        <style type="text/css">
+            .tehtava {
+                margin: 1em;
+                float: left;
+                width: 20em;
+            }
+            .laatikko {
+                width: 15em;
+                height: 10em;
+                border: 1px solid black;
+                padding: 0.5em;
+                margin: 1em 0;
+                background-color: #aaf;
+                transition: opacity 1s;
+            }
+            .laatikko.piilossa {
+                opacity: 0;
+            }
+        </style>
+        <script src="https://code.jquery.com/jquery-1.11.3.js"></script>
+        <script type="text/javascript">
+            function nayta() {
+                // Lisää toiminto, joka piilottaa ja näyttää laatikon vuorotellen lisäämällä ja poistamalla luokan 'piilossa'.
+                jQuery('#laatikko1').   ;
+            }
+            
+            function lataa() {
+                jQuery('#laske').on('click', function(){
+                    var loota = jQuery('#laatikko2');
+                    // Täydennä for-silmukka niin, että laatikkoon lisätään luvut 1...10
+                    for (var i=1; ; ) {
+                        loota.append( );
+                    }
+                });
+                
+                jQuery('#tyhjenna1').on('click', function(){
+                    // Täydennä valitsin valitsemaan toinen laatikko ja lisää toiminto (empty), joka tyhjentää sen.
+                    jQuery('').   ;
+                });
+                
+                // Lisää click-toiminto nappulalle, jonka id on "kolikko".
+                jQuery('').on('click', function(){
+                    // Hae muuttujaan html-elementti, jonka id on "laatikko3".
+                    var loota =  jQuery(''); 
+                    var arpa = Math.random(); // Math.random() antaa satunnaisluvun väliltä 0...1
+                    // kirjoita if-lauseelle ehto, joka on kruunalle ja klaavalle "reilu".
+                    if ( ) {
+                        loota.html('kruuna');
+                    } else {
+                        loota.html('klaava');
+                    }
+                })
+
+                // Lisää nappulalle, jonka id on "tyhjenna2", click-toiminto, joka tyhjentää elementin, jonka id on "laatikko3".
+                
+            }
+        </script>
+    </head>
+    <body onload="lataa()">
+        <header>
+            <h1>Javascript-harjoitus</h1>
+            <h2>www-ohjelmointi-kurssi</h2>
+        </header>
+        <article>
+            <div class="tehtava">
+                <button onclick="nayta();" class="nappi">Näytä / Piilota</button>
+                <div id="laatikko1" class="laatikko">
+                    Paina yllä olevaa nappulaa!
+                </div>
+            </div>
+
+            <div class="tehtava">
+                <button type="button" class="nappi" id="laske">Laske</button>
+                <button type="button" class="nappi" id="tyhjenna1">Tyhjennä</button>
+                <div id="laatikko2" class="laatikko">
+                    
+                </div>
+            </div>
+
+            <div class="tehtava">
+                <button type="button" class="nappi" id="kolikko">Kruuna vai klaava</button>
+                <button type="button" class="nappi" id="tyhjenna2">Tyhjennä</button>
+                <div id="laatikko3" class="laatikko">
+                    
+                </div>
+            </div>
+        </article>
+        <footer>
+        </footer>
+    
+</body></html>

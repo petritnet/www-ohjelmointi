@@ -14,6 +14,6 @@ jotta tekemäsi harjoitukset muistetaan järjestelmässä.
 
 Tee JavaScript-osion tehtävät.
 
-[Codecademyn harjoittelusivuston JavaScript-osio](http://www.codecademy.com/tracks/javascript)
+[Codecademyn harjoittelusivuston JavaScript-osio](http://www.codecademy.com/learn/javascript)
 
 Ei palautettavia tiedostoja vaan harjoitusten tekemistä.

@@ -15,7 +15,7 @@ Lisää `head`-osioon uusi `style`-tagi ja sen sisälle seuraavat muotoilut css-
 1. Kasvata sivun ylimmän otsikon ("Esimerkkisivu") kokoa noin kaksinkertaiseksi
 2. Muuta sisällön `h1`-otsikoiden väriksi tummansininen (`darkblue`).
 3. Muuta sisällön `h2`-otsikoiden väriksi tummanpunainen (`darkred`) sekä asettele ne keskitetysti.
-4. Poista linkeiltä alleviivaus (`text-decoration`) ja muuta niiden tyyli (`text-style`) kursivoiduiksi (`italic`).
+4. Poista linkeiltä alleviivaus (`text-decoration`) ja muuta niiden tyyli (`font-style`) kursivoiduiksi (`italic`).
 5. Aseta body-elementin taustakuvaksi kuva: http://upload.wikimedia.org/wikipedia/commons/f/f1/Tournesol.png .
     Asettele kuva pystysuunnassa ylös, sivusuunnassa vasemmalle, toista kuvaa pysty- ja vaakasuunnassa. Aseta kuvalisäksi paikalleen
     kiinteästi css-säännöllä: `background-attachment: fixed;`
@@ -29,7 +29,7 @@ Lisää `head`-osioon uusi `style`-tagi ja sen sisälle seuraavat muotoilut css-
     - marginaali ylös ja alas `0`, oikealle ja vasemmalle `auto`,
     - teksti keskitetyksi,
     - taustaväriksi valkoinen (`white`),
-    - "täytettä (`padding`) `1` m-kirjain (`em`),
+    - "täytettä" (`padding`) `1` m-kirjain (`em`),
     - kulmien pyöristyssäteeksi `1` m-kirjain (`em`),
     - kaksi sisäpuolista (`inset`) varjoa, joista toinen `5` pikseliä oikealle ja alas mustana (`black`)
       ja toinen `5` pikseliä ylös ja vasemmalle harmaana (`gray`). Molemmat `5` pikselin sumennuksella.
@@ -63,7 +63,7 @@ Lisää `head`-osioon uusi `style`-tagi ja sen sisälle seuraavat muotoilut css-
     - marginaaliksi ylös ja alas 0, sivuille `auto`,
     - aseta fonttiperheeksi (`font-family`) tasavälinen fontti (`monospace`),
     - lisää vielä css-sääntö: `border-collapse: collapse;`
-10. Taulukon otsakkeen (`tbody`) sisällä oleville otsikkosoluille (`th`):
+10. Taulukon otsakkeen (`thead`) sisällä oleville otsikkosoluille (`th`):
     - taustaväriksi sininen,
     - väriksi valkoinen,
     - tekstivarjoksi 1 pikselin verran vasemmalle ja ylös sekä 1 pikselin sumennuksella musta varjo,

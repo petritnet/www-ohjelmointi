@@ -73,6 +73,9 @@ document.getElementById('otsikko').onclick = function(){
     var text = this.getAttribute('data-viesti');
     alert(text);
 }
+document.getElementById('tekstikentta').onchange = function(){
+    alert('Kirjoitit: ' + this.value);
+}
 ```
 <div class="html-example">
 <h1 id="otsikko" data-viesti="Hello, World!">Klikkaa tästä</h1>
@@ -148,8 +151,11 @@ mahdollisuuden käsitellä tapahtuman, alkaen sisimmästä elementistä ja pää
 ```html
 <h1 id="otsikko3">Klikkaa <span id="sana">tätä</span></h1>
 <script>
-document.getElementById('otsikko').addEventListener('click', function(event) {
+document.getElementById('otsikko3').addEventListener('click', function(event) {
     alert('h1');
+});
+document.getElementById('sana').addEventListener('click', function(event) {
+    alert('span');
 });
 </script>
 ```
@@ -172,8 +178,12 @@ kutsumalla epahtuman `stopPropagation()`-metodia.
 ```html
 <h1 id="otsikko3">Klikkaa <span id="sana">tätä</span></h1>
 <script>
-document.getElementById('otsikko').addEventListener('click', function(event) {
+document.getElementById('otsikko4').addEventListener('click', function(event) {
     alert('h1');
+});
+document.getElementById('sana3').addEventListener('click', function(event) {
+    event.stopPropagation();  // Estetään tapahtuman "bubbliminen" ulompiin elementteihin.
+    alert('span');
 });
 </script>
 ```
@@ -184,7 +194,7 @@ document.getElementById('otsikko4').addEventListener('click', function(event) {
     alert('h1');
 });
 document.getElementById('sana3').addEventListener('click', function(event) {
-    event.stopPropagation();
+    event.stopPropagation();  // Estetään tapahtuman "bubbliminen" ulompiin elementteihin.
     alert('span');
 });
 </script>

@@ -148,7 +148,7 @@ var skripti = document.createElement('script');
 skripti.setAttribute('type', 'text/javascript');
 skripti.setAttribute('src', 'http://petrit.net/www-kurssi/skriptit/omaskripti.js');
 
-var otsikko = document.createElement('h1);
+var otsikko = document.createElement('h1');
 otsikko.setAttribute('class', 'paaotsikko important');
 otsikko.innerHTML = 'Otsikon teksti';
 ```

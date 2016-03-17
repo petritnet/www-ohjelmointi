@@ -60,10 +60,12 @@ uusiObj.type             = 'Pistenotaatio';
 uusiObj['oma avain']     = 'Avaimessa välilyönti';
 uusiObj[str]             = 'Avain merkkijonomuuttujassa';
 uusiObj[rand]            = 'Avaimena satunnaisluku';      // Avaimeksi tulee rand muunnettuna merkkijonoksi!
-uusiObj[obj]             = 'Objekti';         // Avaimeksi tulee objektin sijasta merkkijono '[object Object]' !!!
+uusiObj[olio]            = 'Objekti';         // Avaimeksi tulee objektin sijasta merkkijono '[object Object]' !!!
 uusiObj['']              = 'Tyhjä merkkijono!';
 
 console.log(uusiObj);
+// Object { type: "Pistenotaatio", oma avain: "Avaimessa välilyönti", Merkkijono: "Avain merkkijonomuuttujassa",
+//     0.7402333750939218: "Avaimena satunnaisluku", [object Object]: "Objekti", : "Tyhjä merkkijono!" }
 ```
 
 Taulukko eli Array
@@ -196,7 +198,7 @@ console.log(paluu);                       // ['Sitruuna', 'Kiivi', 'Omena']
 Esimerkki 3: Korvataan `Appelsiini` ja `Sitruuna` hedelmillä `Kirsikka` ja `Luumu`.
 ```javascript
 var hedelmat = ['Banaani', 'Appelsiini', 'Sitruuna', 'Kiivi', 'Omena', 'Mango'];
-var paluu = hedelmat.splice(1, 2), `Kirsikka`, 'Luumu');
+var paluu = hedelmat.splice(1, 2), 'Kirsikka', 'Luumu');
 console.log(hedelmat);                    // ['Banaani', 'Kirsikka', 'Luumu', 'Kiivi', 'Omena', 'Mango']
 console.log(paluu);                       // ['Appelsiini', 'Sitruuna']
 ```

@@ -28,6 +28,18 @@ jQueryn ominaisuuksia:
 - Laajennettavissa plugin-lisäosilla
 - Avoimen lähdekoodin [MIT-lisenssi][MIT].
 
+jQueryn käyttöönotto
+====================
+
+jQueryn voi ottaa käyttöön joko lataamalla sopivan version [jQueryn kotisivuilta](http://jquery.com)
+omalle palvelimelle ja linkittämällä siihen `<script>`-tagilla taikka viittaamalla suoraan
+jQueryn omilla palvelimilla olevaan versioon.
+
+```html
+<script src="js/jquery-1.12.0.min.js"></script>
+<script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
+```
+
 jQuery-objekti
 ==============
 

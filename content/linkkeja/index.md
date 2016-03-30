@@ -11,7 +11,7 @@ Ohjeita
 * [W3C yhteisö, joka kehittää HTML -kielen standardointia](http://www.w3.org/)
 * [w3schools.com](http://www.w3schools.com/)
 * [Web-julkaisemisen yleinen opas](http://www.cs.tut.fi/~jkorpela/webjulk/) (kattava mutta osaltaa vanhentunut html-opas)
-* [Lopputyö HTML5 ja CSS3. Lue kokeeseen!](https://publications.theseus.fi/bitstream/handle/10024/46585/Rauhala_Matti.pdf?sequence=1)
+* [Lopputyö HTML5 ja CSS3.](https://publications.theseus.fi/bitstream/handle/10024/46585/Rauhala_Matti.pdf?sequence=1)
 
 Opetussivustoja
 ===============

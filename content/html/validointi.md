@@ -14,8 +14,8 @@ weight = 90
 Sivun validoinnilla varmistetaan, että sivu on annetun dokumenttityypin mukainen.
 Validi sivu toimii todennäköisemmin halutusti eri laite- ja selainympäristöissä.
 Validaattori on sivun tekijän apuväline, ei itsetarkoitus. Esimerkiksi
-sivun *[http://www.yle.fi](http://www.yle.fi)* validointi antaa
-noin 50 virhettä tai varoitusta.
+sivun *[http://www.mtv.fi](http://www.mtv.fi)* validointi antaa
+lukuisia virhettä tai varoitusta.
 
 Sivun validointiin voidaan käyttää [W3C:n][W3C] validaattoria:
 [validator.w3.org][Validaattori]

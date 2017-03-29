@@ -4,8 +4,14 @@ title = "Yleistä"
 type = "front"
 +++
 
+Tämä kurssimateriaali on tehty Turun [Kerttulin lukion](http://www.kerttulinlukio.fi/)
+"www-ohjelmointi"-kurssin tarpeisiin. Kurssin materiaali on käytettävissä
+[CC-by-sa-lisenssin](https://creativecommons.org/licenses/by-sa/4.0/deed.fi)
+ehtojen mukaisesti.
+
 Kurssilla tutustutaan www-ohjelmoinnin erityispiirteisiin.
 
+<!--
 * Koe
 * Tehtäviä
     * Arvostelussa tehdyt kotitehtävät vaikuttavat arvosteluun +/-1 numeroa.
@@ -22,6 +28,7 @@ Aikataulu
 * Talviloma: 22.2. -- 26.2.
 * Pääsiäistauko: 25.3. -- 28.3.
 * Koe: 1.4.2016
+-->
 
 Kurssilla käsitellään seuraavia asioita
 =======================================
@@ -30,6 +37,7 @@ Kurssilla käsitellään seuraavia asioita
 * Web-sivujen dynaaminen sisältö ja web-sovellukset: Javascript-kieli
 * Palvelinpuolen toiminta
 
+<!--
 Tiedotus ja asiointi
 ====================
 * Kurssin kotisivuilla
@@ -98,3 +106,4 @@ Palautus
 --------
 Harjoitustyön tuotos palautetaan opettajalle joko sähköpostilla (zip-tiedosto) tai jollekin palvelimelle nähtäville laitettuna.
 Palautukseen tulee liittää kaikki tehty koodi ja pieni dokumentaatio siitä, mitä harjoitustyö sisältää ja miksi toteutus on tehty niin kuin se on tehty.
+-->

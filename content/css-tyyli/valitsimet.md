@@ -28,12 +28,12 @@ olevan sisäkkäin, niihin viittaavien elementtien väliin jätetään välilyö
 elementille halutaan antaa tarkentavia valitsimia, kirjoitetaan valitsimet yhteen.
 
 ```css
-div.asia p.peruskappale span a {
+div.asia p.peruskappale a span {
     ... Määrittelyt ...
 }
 ```
 Yllä oleva valitsin <code><span style="color: blue;">div.asia</span> <span style="color: red;">p.peruskappale</span> <span style="color: green;">span</span> <span style="color: brown;">a</span></code>
-määrittelee tyylisääntöjä kaikille linkeille (`<a>`), jotka ovat `<span>`-tagin sisällä, joka on puolestaan kappaleessa `<p>`, jolla on luokkana (`class`-attribuutti) `peruskappale`, ja joka on
+määrittelee tyylisääntöjä kaikille `<span>`-tageille, jotka ovat linkin (`<a>`) sisällä, joka on puolestaan kappaleessa `<p>`, jolla on luokkana (`class`-attribuutti) `peruskappale`, ja joka on
 sellaisen `<div>`-tagin sisällä, jolla on luokkana `asia`.
 
 <figure>

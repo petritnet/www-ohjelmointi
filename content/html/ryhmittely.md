@@ -146,7 +146,7 @@ liittyviä muita asioita.
     <p>Tänään keskipäivällä kuuhun laskeutui ...</p>
     <aside>
         <h4>Kuu</h4>
-        <p>Kuu on kiertää maapallon kerran kuukaudessa</p>
+        <p>Kuu kiertää maapallon kerran kuukaudessa</p>
     </aside>
     <p>Kuussa käveltiin...</p>
 </article>
@@ -157,7 +157,7 @@ liittyviä muita asioita.
     <p>Tänään keskipäivällä kuuhun laskeutui ...</p>
     <aside style="float: right; margin: 0 0.5em; border: 1px solid #666; max-width: 15em;">
         <h4 style="padding: 0 0.5em; margin: 0; background-color: #aaf;">Kuu</h4>
-        <p style="padding: 0.5em;">Kuu on kiertää maapallon kerran kuukaudessa</p>
+        <p style="padding: 0.5em;">Kuu kiertää maapallon kerran kuukaudessa</p>
     </aside>
     <p>Kuussa käveltiin...</p>
     <div style="clear: both;"></div>

@@ -23,6 +23,8 @@ Editoreita
 * [Notepad++ portable](http://portableapps.com/apps/development/notepadpp_portable) muistitikulle asennettava versio Notepad++:sta.
 * [Komodo Edit -koodieditori](http://komodoide.com/komodo-edit/) (Windows / Mac OS X / Linux)
 * [Sublime Text](http://www.sublimetext.com/)
+* [Atom](https://atom.io/)
+* [Visual Studio Code](https://code.visualstudio.com/)
 
 Työkaluja verkossa
 ==================

@@ -51,7 +51,7 @@ pluralizeListTitles = false
   author = "Petri Salmela"
   authorlocation = "Turku, Finland"
   email = "www-ohjelmointi@petrit.net"
-  github = "https://github.com/pesasa/memorygame"
+  github = "https://github.com/petritnet/"
 #  twitter = "https://twitter.com/pesasafi"
-#  copyright = "CC-by-sa: Petri Sallasmaa & Petri Salmela"
+  copyright = "CC-by-sa: Petri Sallasmaa & Petri Salmela"
 

@@ -1,0 +1,10 @@
+Lisenssi
+=======
+
+Www-ohjelmointi -kurssin materiaali on käytettävissä
+CC-by-sa -lisenssin ehtojen mukaan.
+(https://creativecommons.org/licenses/by-sa/4.0/deed.fi)
+
+Tekijät:
+Petri Sallasmaa
+Petri Salmela <pesasa@iki.fi>
